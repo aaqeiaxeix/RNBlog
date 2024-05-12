@@ -40,6 +40,7 @@ const PostDetailsPage = () => {
 
 
             <Text style={{ fontSize: 30, marginBottom: 20 }}>{post.title}</Text>
+
             <Markdown>{post.content}</Markdown>
 
 
